@@ -4,7 +4,7 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx HelloWorld out/video.mp4",
+    "build": "remotion render src/index.tsx Chart out/video",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
@@ -15,6 +15,7 @@
     "@remotion/cli": "^3.0.0",
     "@remotion/eslint-config": "^3.0.0",
     "@remotion/renderer": "^3.0.0",
+    "anichart": "3.0.0-alpha.3",
     "eslint": "^8.14.0",
     "prettier": "^2.2.1",
     "react": "^18.0.0",
