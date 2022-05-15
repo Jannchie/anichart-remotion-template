@@ -5,6 +5,7 @@
   "scripts": {
     "start": "remotion preview src/index.tsx",
     "build": "remotion render src/index.tsx Chart out/video",
+    "sequence": "remotion render src/index.tsx Chart out/video --sequence",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
