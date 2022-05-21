@@ -16,7 +16,7 @@
     "@remotion/cli": "^3.0.0",
     "@remotion/eslint-config": "^3.0.0",
     "@remotion/renderer": "^3.0.0",
-    "anichart": "3.0.0-alpha.3",
+    "anichart": "3.0.0-alpha.4",
     "eslint": "^8.14.0",
     "prettier": "^2.2.1",
     "react": "^18.0.0",

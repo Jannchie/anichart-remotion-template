@@ -4,7 +4,7 @@ import * as ANI from 'anichart';
 import { AniChart } from './AniChart';
 
 export const DemoChart: React.FC = () => {
-  return <AniChart initStage={initStage} left={100} top={100} right={100} bottom={100} />
+  return <AniChart initStage={initStage} />;
 }
 
 function initStage(stage: ANI.Stage) {
