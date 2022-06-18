@@ -1,11 +1,10 @@
-
-import { staticFile } from 'remotion'
+import { staticFile } from 'remotion';
 import * as ANI from 'anichart';
-import { AniChart } from './AniChart';
+import { AniChart } from '@anichart/remotion';
 
 export const DemoChart: React.FC = () => {
   return <AniChart initStage={initStage} />;
-}
+};
 
 function initStage(stage: ANI.Stage) {
   stage.output = false;
