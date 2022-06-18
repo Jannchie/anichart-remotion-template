@@ -1,7 +1,7 @@
 {
-  "name": "anichart-video",
+  "name": "anichart-remotion-template",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Render the Anichart animation into a video.",
   "scripts": {
     "start": "remotion preview src/index.tsx",
     "build": "remotion render src/index.tsx Chart out/video",
